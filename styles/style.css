@@ -1,5 +1,28 @@
-html,
 body {
-  height: 100%;
   font-family: 'Raleway', sans-serif;
+}
+
+.min-container{
+  width: 100vw;
+  height: 100%;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo{
+  margin-inline-end: auto;
+  padding: 20px;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  padding: 10px;
 }
