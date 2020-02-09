@@ -2,11 +2,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.min-container{
-  width: 100vw;
-  height: 100%;
-}
-
 header{
   display: flex;
   justify-content: space-around;
