@@ -19,7 +19,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
 }
 
 li {
@@ -34,3 +33,8 @@ nav a {
   padding: 20px;
   margin: 10px;
 }
+
+nav a:hover{
+color: #4f9f2d;
+}
+
