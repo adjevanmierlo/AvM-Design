@@ -12,6 +12,10 @@ canvas{
   height: 100vh;
 }
 
+section{
+  width: 100vw;
+  height: 100vh;
+}
 
 header{
   display: flex;
@@ -19,7 +23,7 @@ header{
   justify-content: space-around;
   margin: 10px 0px;
   padding: 20px 0px;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100vw;
 }
@@ -38,6 +42,7 @@ li {
   list-style: none;
   padding: 20px;
   margin: 10px;
+  font-size: 26px;
 }
 
 li a{
