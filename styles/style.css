@@ -28,6 +28,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 1;
 }
 
 header a {
@@ -117,7 +118,7 @@ button a {
 
 @media only screen and (max-device-width: 480px) {
   li a {
-   display: none;
+    display: none;
   }
   .landing-text h1 {
     font-weight: 500;
@@ -144,8 +145,77 @@ button a {
 }
 /* EINDE LANDINGS PAGE */
 
+/* CONTACT PAGE */
 
-.copyrights{
+.contact-page {
+  height: 100vh;
+  display: flex;
+}
+
+.google{
+  position: relative;
+}
+
+.google-text img{
+  position: absolute;
+  top: 89%;
+  left: 46%;
+}
+
+.google-text a{
+  text-decoration: none;
+}
+
+.google iframe{
+z-index: -10;
+ width: 50vw;
+ height: 100vh;
+}
+
+.google-overlay{
+  position: absolute;
+  top: 0;
+  width: 50vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, white 30%, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+}
+
+.google-text{
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.google h1 {
+  font-size: 48px;
+  line-height: 1.05em;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.google h2 {
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.google p {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.form {
+  width: 50vw;
+  background-color: blue;
+}
+
+/* COPYRIGHTS */
+.copyrights {
   margin: 10px;
   padding: 20px;
   text-align: center;
