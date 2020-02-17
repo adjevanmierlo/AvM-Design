@@ -188,21 +188,21 @@ z-index: -10;
   left: 15%;
 }
 
-.google h1 {
+.contact-page h1 {
   font-size: 48px;
   line-height: 1.05em;
   font-weight: 400;
   margin-bottom: 5px;
 }
 
-.google h2 {
+.contact-page h2 {
   margin-bottom: 5px;
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
-.google p {
+.contact-page p {
   margin-bottom: 5px;
   font-size: 20px;
   line-height: 34px;
@@ -211,8 +211,16 @@ z-index: -10;
 
 .form {
   width: 50vw;
-  background-color: blue;
+  position: relative;
 }
+
+.form-text{
+position: absolute;
+top: 25%;
+left: 15%;
+}
+
+/* EINDE CONTACT PAGE */
 
 /* COPYRIGHTS */
 .copyrights {
