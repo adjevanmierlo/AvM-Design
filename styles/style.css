@@ -152,36 +152,40 @@ button a {
   display: flex;
 }
 
-.google{
+.google {
   position: relative;
 }
 
-.google-text img{
+.google-text img {
   position: absolute;
-  top: 89%;
+  top: 75%;
   left: 46%;
 }
 
-.google-text a{
+.google-text a {
   text-decoration: none;
 }
 
-.google iframe{
-z-index: -10;
- width: 50vw;
- height: 100vh;
+.google iframe {
+  z-index: -10;
+  width: 50vw;
+  height: 100vh;
 }
 
-.google-overlay{
+.google-overlay {
   position: absolute;
   top: 0;
   width: 50vw;
   height: 100vh;
-  background: linear-gradient(to bottom, white 30%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    white 30%,
+    rgba(255, 255, 255, 0) 100%
+  );
   pointer-events: none;
 }
 
-.google-text{
+.google-text {
   z-index: 1;
   position: absolute;
   top: 25%;
@@ -214,10 +218,62 @@ z-index: -10;
   position: relative;
 }
 
-.form-text{
-position: absolute;
-top: 25%;
-left: 15%;
+.form-text {
+  position: absolute;
+  top: 24%;
+  left: 15%;
+}
+
+.form-text h1 {
+  font-size: 48px;
+  line-height: 1.05em;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.form-text label {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.form-text input,
+textarea {
+  border: 2px solid #4f9f2d;
+  border-color: #4f9f2d;
+  padding: 0.375rem 0.75rem;
+  width: 100%;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.form-text button {
+  padding: 0.375rem 0.75rem;
+  border-color: #4f9f2d;
+  transition: all ease 0.8s;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 1.375em;
+  font-weight: 400;
+  border-radius: 15px;
+  border: 2px solid #4f9f2d;
+}
+
+.form-text button:hover {
+  box-shadow: inset 150px 0 0 0 #4f9f2d;
+  background-color: transparent;
+}
+
+.fab {
+  font-size: 46px;
+  color: #2c2c2c;
+}
+
+.fab:hover {
+  color: #4f9f2d;
 }
 
 /* EINDE CONTACT PAGE */
